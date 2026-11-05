@@ -56,6 +56,7 @@ export const x_2300649_hirefl_0_template_task = Table({
         catalog_item: ReferenceColumn({ label: 'Catalog Item', referenceTable: 'sc_cat_item' }),
         applicability_condition: StringColumn({ label: 'Applicability Condition', maxLength: 4000 }),
         offset_days: IntegerColumn({ label: 'Offset Days', default: 0, mandatory: true }),
+        sla_days: IntegerColumn({ label: 'SLA Days', default: 0, mandatory: true }),
         verification_source: ChoiceColumn({
             label: 'Verification Source',
             choices: {
