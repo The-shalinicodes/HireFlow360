@@ -560,6 +560,32 @@ declare global {
                 }
                 composite: [
                     {
+                        table: 'sys_dictionary'
+                        id: '000384de7008486eb1f588bc1d990e79'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '0071a5aa7b794322806578fdc87beabe'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'employment_type'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '00a70c581f5a4cd6bd2e7aafd3ec1db3'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'evaluator'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '00b1f7d85cab42f9a9091f1cebf8d812'
                         key: {
@@ -600,6 +626,22 @@ declare global {
                             name: 'x_2300649_hirefl_0_readiness_snapshot'
                             element: 'joiner'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '02ff99218f3441c2aa2eb45ca412ffb1'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'detailed_feedback'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '031e508cbe7c48c297150dece27e2116'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'NULL'
                         }
                     },
                     {
@@ -700,6 +742,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: '04be68e88af84485b64fe8492d602431'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'strengths'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '04bedc7ba0a14d6f8c005c0f40257fb4'
                         key: {
@@ -734,6 +784,17 @@ declare global {
                             name: 'x_2300649_hirefl_0_onboarding_task'
                             element: 'evidence_verified'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '05418d0b6f7243b28bfa568c3fdf7887'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'offer_status'
+                            value: 'draft'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -774,6 +835,17 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: '070128ed5de94273b6c8bd55c86513b4'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'offer_status'
+                            value: 'expired'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '075c69d11ec74359a9ead2c21d6d6855'
                         key: {
@@ -782,11 +854,37 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: '07ca56cc59c1466ba0a909bbc3ed1161'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'job_application'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '081a07df158540caaf8a1f13b47384ba'
                         key: {
                             name: 'x_2300649_hirefl_0_verification_status'
                             element: 'ageing_start_time'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '084a874cf89e41eb9e9853caae16b095'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'minimum_experience'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '086640d89b22475d9971db7cbef5f4c0'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'NULL'
                             language: 'en'
                         }
                     },
@@ -862,11 +960,58 @@ declare global {
                     },
                     {
                         table: 'sys_documentation'
+                        id: '09f6a836623c41279b01e451bba98102'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'job_application'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
                         id: '0a297a2f197441b88c02f6b5f6f353de'
                         key: {
                             name: 'x_2300649_hirefl_0_recovery_action'
                             element: 'ai_recommendation'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '0aaccb29c970416e80a665450cbff645'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'location'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '0ab8aa2112e74e4581ec07056f5d903b'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'employment_type'
+                            value: 'full_time'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '0af6479af4ca458db2159da4be64054c'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'applicant'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '0b4fc211eb49434bb0caf6ee3f7875b0'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'handoff_status'
+                            value: 'failed'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -891,6 +1036,26 @@ declare global {
                     },
                     {
                         table: 'sys_choice'
+                        id: '0bf326b10d0641858a555b1245d84c2f'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'requisition_status'
+                            value: 'approved'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '0c7276ac76354e9f9af1fd76f969264e'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'meeting_link'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
                         id: '0cb63993d1fa403c8a8114483a8fd4d1'
                         key: {
                             name: 'x_2300649_hirefl_0_template_task'
@@ -906,6 +1071,23 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_bgv_vendor'
                             element: 'vendor_status'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '0d73a63024fa4f8bb4496f45903cc2d2'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'joining_date'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '0d7a0144b6f647e4b00372d8e4d60900'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'job_description'
                             language: 'en'
                         }
                     },
@@ -942,6 +1124,36 @@ declare global {
                             name: 'x_2300649_hirefl_0_recovery_playbook'
                             element: 'active'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '0ee841c8523842e2ac09701762a16463'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'current_stage'
+                            value: 'hr'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '0efaca99f52649cdbb9f1b2c2c911c9f'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'offer_id'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '0f50efc26ecc4d4684b3b9922010c47e'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_status'
+                            value: 'cancelled'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -994,6 +1206,17 @@ declare global {
                             name: 'x_2300649_hirefl_0_recovery_action'
                             element: 'execution_status'
                             value: 'completed'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '115424d4642e41e6969e22861997bfcc'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'requisition_status'
+                            value: 'on_hold'
                             language: 'en'
                             dependent_value: 'NULL'
                         }
@@ -1062,6 +1285,33 @@ declare global {
                     },
                     {
                         table: 'sys_dictionary'
+                        id: '13e9d18f5f414a38b185d61b133c33a2'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '13fd6be83fdb487ab01523f3e1a80a54'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'evaluator'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '143dad6470e04ab7a4981c847c0cefce'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_round'
+                            value: 'technical_1'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
                         id: '1465dbfbf0ff49b18ac50a7007f551d5'
                         key: {
                             name: 'x_2300649_hirefl_0_onboarding_template'
@@ -1074,6 +1324,15 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_readiness_verification'
                             element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '14d71ded4a5e4c3f91bc2ba72610c67c'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'application_id'
+                            language: 'en'
                         }
                     },
                     {
@@ -1104,12 +1363,28 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: '15917f43e6d64d7dbd23f880febd2a98'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'overall_score'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '15d3f52c33704007ba09f5ae2730dea4'
                         key: {
                             name: 'x_2300649_hirefl_0_task_evidence'
                             element: 'integration_transaction'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '1649efde10ed418eb77750e5727cf519'
+                        key: {
+                            name: 'x_2300649_hirefl_0_onboarding_task'
+                            element: 'verification_status'
                         }
                     },
                     {
@@ -1159,6 +1434,23 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: '1795d83c444c4ddcb833a1d69c2a2e13'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_id'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '17cadf680331471285f9f0e924b51752'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'improvement_areas'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '1817f18f47d34ace990017955c1d3b33'
                         key: {
@@ -1204,11 +1496,29 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_db_object'
+                        id: '1a1b2e15c3c2459dab5ddee37c7833b0'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '1a880268c8b549aa896a7f08092e33a8'
                         key: {
                             name: 'x_2300649_hirefl_0_nudge_log'
                             element: 'channel'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '1aa562b445b44138a470c485dc514df1'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_type'
+                            value: 'telephonic'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -1225,6 +1535,17 @@ declare global {
                             name: 'x_2300649_hirefl_0_recovery_action'
                             element: 'approval_status'
                             value: 'approved'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '1d077594b3b84ae8a72554ab1c4768ec'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'application_status'
+                            value: 'submitted'
                             language: 'en'
                             dependent_value: 'NULL'
                         }
@@ -1267,12 +1588,49 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: '1edc20ae0952419cb9722c2c84d70966'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'offer_status'
+                            value: 'released'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '1f663f9546a146c2acfb5d7f101e7b2b'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_round'
+                            value: 'technical_2'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'ua_table_licensing_config'
+                        id: '1f6d7059c0a341acbcb1f87cef807d87'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '1f9b5999e4dc43228910a054d8cc83c9'
                         key: {
                             name: 'x_2300649_hirefl_0_template_task'
                             element: 'owner_group'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice_set'
+                        id: '1fea18e595ef48879b13a302b3190c43'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'application_status'
                         }
                     },
                     {
@@ -1330,6 +1688,13 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_db_object'
+                        id: '21be7410ddb14359aef03f5aa68946b8'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '21e7897f788d4c5b9073fc7ef04d655a'
                         key: {
@@ -1363,6 +1728,17 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_batch'
                             element: 'batch_id'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '22af595ae381493da86bdaf493c29f61'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'application_status'
+                            value: 'offer_accepted'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -1415,6 +1791,23 @@ declare global {
                             value: 'sent'
                             language: 'en'
                             dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '268cef2b31e04802adc7e8dbba5ef21a'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'required_skills'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '2694858d0ec54deba7c85e6c82a8701d'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'technical_score'
                         }
                     },
                     {
@@ -1521,6 +1914,17 @@ declare global {
                     },
                     {
                         table: 'sys_choice'
+                        id: '28c4cb0597e04f34be8e4135dcbc4204'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'offer_status'
+                            value: 'declined'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
                         id: '28cbdb67215a455d831866b6bd9999c4'
                         key: {
                             name: 'x_2300649_hirefl_0_template_task'
@@ -1568,6 +1972,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: '2a5f6ac0e5e949a1b361b00bb84976c4'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'hiring_manager'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '2a61dc1045ee4bad8b78de6d7ff468a5'
                         key: {
@@ -1594,12 +2006,31 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: '2ae21f21cfe94c3ca7fbf7f4b6467481'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_type'
+                            value: 'in_person'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '2ae4011b62b74009b616e5f76fe7a1fb'
                         key: {
                             name: 'x_2300649_hirefl_0_recovery_playbook'
                             element: 'playbook_name'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '2afa6a6cb8e8407b95e6b09923d450ba'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'application_status'
                         }
                     },
                     {
@@ -1625,11 +2056,29 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '2b4e75bb9afb49a280ba2f2512d92eb5'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_id'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '2b594edcc415420abdd8ec677d1dd2fa'
                         key: {
                             name: 'x_2300649_hirefl_0_joiner'
                             element: 'validation_retry_count'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '2b671ab70785458bafa32704f02a02b3'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'NULL'
+                            language: 'en'
                         }
                     },
                     {
@@ -1704,11 +2153,42 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: '2d00b2b57e3b4ed4aa1c2fe61adc1ab6'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_status'
+                            value: 'completed'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '2d3c721314904286a4df79bbd46e9769'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'job_requisition'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '2d74b25f898441349dcfe612eec93ab8'
                         key: {
                             name: 'x_2300649_hirefl_0_task_evidence'
                             element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '2d897808f66d430dbc65c55bbb15c7eb'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'priority'
+                            value: 'medium'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -1823,6 +2303,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: '2fd567235b26456c9d71461f222fbd33'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'last_stage_update'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '30c4127c6e444a3c9dbf339515cf5dd6'
                         key: {
@@ -1863,6 +2351,17 @@ declare global {
                     },
                     {
                         table: 'sys_choice'
+                        id: '3318415472a94296817db9ea658ee153'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'requisition_status'
+                            value: 'closed'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
                         id: '331c0e87be884bc897f48c28bc804d56'
                         key: {
                             name: 'x_2300649_hirefl_0_template_task'
@@ -1878,6 +2377,15 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_onboarding_task'
                             element: 'mandatory'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '337bb2e072684dd7a9a294ba56aee431'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'offer_status'
                             language: 'en'
                         }
                     },
@@ -1960,6 +2468,23 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '355a7706710642f0b7cb03b3d43f4a84'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'response_deadline'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '358bfee27ebd41afbf1c6793bc29bebb'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interviewer'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '35dbcdc20fa14b37951a8e6af21dc480'
                         key: {
@@ -1989,6 +2514,28 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: '36982a75f33046e1b38179480330a42f'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'handoff_status'
+                            value: 'completed'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '37440890a2434ff4bbeadcae3f7bff71'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'handoff_status'
+                            value: 'pending'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_db_object'
                         id: '375a936ad67e429a95913276ed28ba2a'
                         key: {
@@ -2001,6 +2548,42 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_nudge_log'
                             element: 'onboarding_task'
+                        }
+                    },
+                    {
+                        table: 'sys_choice_set'
+                        id: '38520db30ff743339c9c283efaf2684a'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'employment_type'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '38ac0cbf92724518bdae4e20b10eeef2'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'handoff_status'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '38bc7abd1df44609a78163c0814abbbd'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'offer_document_reference'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '38cb75feac2d447899f27ab3d6eac203'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_round'
+                            value: 'hr'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -2132,6 +2715,13 @@ declare global {
                         }
                     },
                     {
+                        table: 'ua_table_licensing_config'
+                        id: '3c391f65841d466cbff105d29e1690d8'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '3c633aeb528e47e68e447f4e1600e5b2'
                         key: {
@@ -2150,11 +2740,37 @@ declare global {
                     },
                     {
                         table: 'sys_documentation'
+                        id: '3d6d1287a03246eb95c26bc2b4f06eed'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'phone'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
                         id: '3e3518614793480f9fd0712fe6ac01af'
                         key: {
                             name: 'x_2300649_hirefl_0_joiner'
                             element: 'bgv_initiated'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '3eb536570f114d599668f97961844c3a'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'communication_score'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '3ec6c4476af94ab088d68d058d9c5556'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_round'
                         }
                     },
                     {
@@ -2180,6 +2796,22 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: '408a5a6c873041c6bc94a1b201ded2ea'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'recommendation'
+                        }
+                    },
+                    {
+                        table: 'sys_choice_set'
+                        id: '40e173a3cae64f2eb6f7aabceb575765'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_type'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '40e48c2ef8d6465180fae4334555cff5'
                         key: {
@@ -2194,6 +2826,14 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_onboarding_template'
                             element: 'effective_from'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '4126869bfe4d43c791528d81aa5ba243'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'email'
                         }
                     },
                     {
@@ -2299,6 +2939,17 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: '43c803e9d61c4c7fbc5c0cd10f608988'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'requisition_status'
+                            value: 'cancelled'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '43fecfaebf6840d5ad4435ffe8b39ac2'
                         key: {
@@ -2361,10 +3012,38 @@ declare global {
                     },
                     {
                         table: 'sys_dictionary'
+                        id: '467be2aba4284e2d800c330ec10221ac'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'skills'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '46d217b758c04a139e4111a088228d08'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'applicant'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
                         id: '471a205d33c2475aac344d03a7f68c5c'
                         key: {
                             name: 'x_2300649_hirefl_0_allocation'
                             element: 'joiner'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '4754888aab40468586f864ebadd1912d'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_result'
+                            value: 'pending'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -2415,10 +3094,47 @@ declare global {
                     },
                     {
                         table: 'sys_dictionary'
+                        id: '48737ff1a2e744209b0f3b9deb622e8c'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'target_joining_date'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '488496c4949d49149659776098120d60'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'rejection_reason'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
                         id: '48a49db29bd749608c879fc68fb32633'
                         key: {
                             name: 'x_2300649_hirefl_0_bgv_vendor'
                             element: 'vendor_code'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '48fbaeba90bb4352b91174147db86db5'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'maximum_experience'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '4900a2dcd50a4adfaff91b2c1ae0062a'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'application_status'
+                            value: 'offer_declined'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -2488,6 +3204,26 @@ declare global {
                             value: 'ats'
                             language: 'en'
                             dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '4c0e48edfe4640019bd52899565358b1'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'offer_status'
+                            value: 'pending_approval'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '4c10113f8ab742969db2e68371603069'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'interview'
+                            language: 'en'
                         }
                     },
                     {
@@ -2581,11 +3317,37 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '4e628be66a494a099a145261845e6b10'
+                        key: {
+                            name: 'x_2300649_hirefl_0_onboarding_task'
+                            element: 'verification_status'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_choice_set'
                         id: '4e7222fb0ef64c56a8a60557ab10306d'
                         key: {
                             name: 'x_2300649_hirefl_0_recovery_playbook'
                             element: 'priority'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '4e82c5237eed4fd48361e8475a5ecd83'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_result'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '4e98ab130ded4260abbb4995f6e3e406'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'target_joining_date'
+                            language: 'en'
                         }
                     },
                     {
@@ -2650,6 +3412,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: '5053d1f2949440489e46ce832751d67f'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'job_requisition'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '5058391373c241368f4dbbec0fc8b27c'
                         key: {
@@ -2673,6 +3443,17 @@ declare global {
                             name: 'x_2300649_hirefl_0_recovery_action'
                             element: 'playbook'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '51365f0a738948ce8a6865db6b3a2c96'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_result'
+                            value: 'passed'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -2821,6 +3602,15 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '564e8478ab88453d8440ac8afeface1d'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'closing_date'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '565edc10f2194353a57f4df5c025d2db'
                         key: {
@@ -2875,6 +3665,17 @@ declare global {
                     },
                     {
                         table: 'sys_choice'
+                        id: '5841ff6ce768477fa5ba6edf9c2c07f9'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'recommendation'
+                            value: 'strong_hire'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
                         id: '587a4cf878dc42c6a04ba133dcd7d7a8'
                         key: {
                             name: 'x_2300649_hirefl_0_verification_status'
@@ -2882,6 +3683,14 @@ declare global {
                             value: 'clear'
                             language: 'en'
                             dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '58c1b92c88c1465592588dfe5eb644af'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'assigned_recruiter'
                         }
                     },
                     {
@@ -2916,6 +3725,14 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_joiner'
                             element: 'relocation_required'
+                        }
+                    },
+                    {
+                        table: 'sys_choice_set'
+                        id: '59544c07780f4267abd19e54baee90f8'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'handoff_status'
                         }
                     },
                     {
@@ -3010,6 +3827,17 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: '5c2018f7d70a4937aeaa52deb4512f4d'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_result'
+                            value: 'failed'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '5c4916a469d84c5eab685e88ec224b1d'
                         key: {
@@ -3024,6 +3852,25 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_bgv_vendor'
                             element: 'contact_email'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '5ce45feb5fd640fa9952396e243a277a'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'total_experience'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '5cfbdcf414e3406aa03559078feb564f'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_status'
+                            value: 'scheduled'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -3055,6 +3902,17 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: '5ee137b14a574e1bb937de75c445027b'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'requisition_status'
+                            value: 'draft'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'ua_table_licensing_config'
                         id: '5ef4d3baba1b40bdacf68a0049cfe591'
                         key: {
@@ -3079,6 +3937,15 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '60a31dd6af1f459393d5f5bcad28c68a'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'offer_document_reference'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '61797f60e5e04bdfa433c5558ddcaef9'
                         key: {
@@ -3098,6 +3965,35 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '62fb91a7c16b43a58b683ca1c899b795'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'technical_score'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '6322255a9c3d418f95307fda38907730'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'current_stage'
+                            value: 'completed'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '6362e55f661f44b7b44c7580b2c7ac56'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'job_title'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '63ee92b89fa54e96bd75f15c82f2a0b0'
                         key: {
@@ -3109,11 +4005,42 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: '6437e8cf9e6d4f099f5352e84efe84fe'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'recommendation'
+                            value: 'hire'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '648561cac13b43d2a590b564d79e06c6'
                         key: {
                             name: 'x_2300649_hirefl_0_fulfilment_baseline'
                             element: 'average_days'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '64a2edfbc8794f72bfe858252f3c046b'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'applicant_source'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '64a3965d00fd4c9ea3a12e5d23e15219'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'current_stage'
+                            value: 'technical'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -3191,6 +4118,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice_set'
+                        id: '66afd7382d2748519d679740e50e46a0'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'offer_status'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '66b8cfc51ed442e681ac6785cc77d915'
                         key: {
@@ -3206,6 +4141,17 @@ declare global {
                             name: 'x_2300649_hirefl_0_batch'
                             element: 'NULL'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '66df3beb81bf44dc81ef50cff4738dc2'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'application_status'
+                            value: 'rejected'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -3234,6 +4180,21 @@ declare global {
                             value: 'failed'
                             language: 'en'
                             dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '689484775ed54e06be2bae64399d4367'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'job_application'
+                        }
+                    },
+                    {
+                        table: 'sys_db_object'
+                        id: '68cd0d8c264c47ffa16615487d6fee37'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
                         }
                     },
                     {
@@ -3266,12 +4227,32 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '69e9ab5b4b7d499588da06fc1c175535'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'posting_date'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '6a20303a71494e62a8a6c04e8d082e2a'
                         key: {
                             name: 'x_2300649_hirefl_0_fulfilment_baseline'
                             element: 'source'
                             value: 'configured'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '6a22464cf7884276854bc1202e1d2d5b'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'priority'
+                            value: 'high'
                             language: 'en'
                             dependent_value: 'NULL'
                         }
@@ -3328,6 +4309,17 @@ declare global {
                             name: 'x_2300649_hirefl_0_task_evidence'
                             element: 'evidence_type'
                             value: 'other'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '6b99c08269fa475eb06d7ecaca872573'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_status'
+                            value: 'confirmed'
                             language: 'en'
                             dependent_value: 'NULL'
                         }
@@ -3435,6 +4427,34 @@ declare global {
                     },
                     {
                         table: 'sys_dictionary'
+                        id: '6fee06f0816843239c23a1b7ef08c96d'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'openings'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '70a5fe3436c04f4cae8ec3eeb391f2c2'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'requisition_status'
+                            value: 'open'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '7167b6f54bd845dfb69e106c1ab78188'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'overall_score'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
                         id: '71728ba2a6f34b5297df32ea4075170c'
                         key: {
                             name: 'x_2300649_hirefl_0_batch'
@@ -3470,6 +4490,15 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '71ef961f2bd74700be433c5f8ddbea9a'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'scheduled_end'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '7277c10eb2054e22ba52ac1fe4d2478d'
                         key: {
@@ -3495,6 +4524,17 @@ declare global {
                             name: 'x_2300649_hirefl_0_template_task'
                             element: 'mandatory'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '72c9c3714870465dafa8cd97770defc4'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'current_stage'
+                            value: 'managerial'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -3543,6 +4583,23 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice_set'
+                        id: '746ed71e4804433a824a3fd3175bd8ec'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'current_stage'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '74ca4323e35544c1a6ce03b3893401be'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'scheduled_start'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '752ae35347704b8eb131253552189112'
                         key: {
@@ -3567,6 +4624,14 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_readiness_verification'
                             element: 'recheck_status'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '762e51d9f65a40c19dfaa1ebc946a0e7'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'applicant_id'
                         }
                     },
                     {
@@ -3619,6 +4684,15 @@ declare global {
                     },
                     {
                         table: 'sys_documentation'
+                        id: '77e903bec419435ca419fd91a85bddeb'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_result'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
                         id: '7830b1a79d5244ef91213debdfa1611b'
                         key: {
                             name: 'x_2300649_hirefl_0_integration_transaction_log'
@@ -3667,10 +4741,72 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '788b0041b7644f8d8bfec498ebebc246'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'evaluation_id'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '78d807d2550348e5a1964794306b19f3'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'applicant'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'ua_table_licensing_config'
                         id: '78f4af454c1e4e1a8181ce5c89261d36'
                         key: {
                             name: 'x_2300649_hirefl_0_task_evidence'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '797ddb2a1b844aaeacd820961c3737b0'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'offer_status'
+                            value: 'withdrawn'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '7994d2470b13452e9fe612a4f4f5a442'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'employment_type'
+                            value: 'part_time'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '7aa5aa9240bc49c6ab5998f38e9f5f40'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'employment_type'
+                            value: 'internship'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '7ae2ed8e432a40f381198d7d270af281'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'application_status'
+                            value: 'offer_in_progress'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -3690,6 +4826,14 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_batch'
                             element: 'status'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '7bcaac56e870481385ef2988851ac52a'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'job_title'
                         }
                     },
                     {
@@ -3734,6 +4878,17 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_joiner'
                             element: 'batch'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '7e06da8ead0d478d9e39ea6eb83c4f34'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_status'
+                            value: 'rescheduled'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -3854,6 +5009,14 @@ declare global {
                     },
                     {
                         table: 'sys_dictionary'
+                        id: '82c48404fff04336a8e95226eb0379bb'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'posting_date'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
                         id: '82c88c0e55f747bfaf96c17b4e37875a'
                         key: {
                             name: 'x_2300649_hirefl_0_template_task'
@@ -3943,10 +5106,29 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: '86ebe8d3705a453c98c58cbd081a413e'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'application_id'
+                        }
+                    },
+                    {
                         table: 'sys_db_object'
                         id: '8738a01937f5475db077c440ee3c51e0'
                         key: {
                             name: 'x_2300649_hirefl_0_bgv_vendor'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '87aebed232bd4f5cbf7159c5c05041a4'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'offer_status'
+                            value: 'approved'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -3999,6 +5181,41 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '891623e881cf4b1fbc538d39d34aaf0d'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'NULL'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '891e9841deb442c89f661f34a7cf6fdb'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'highest_qualification'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '89478f5421674425a5516e3efebf157a'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'offer_status'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '895133fe1ace4174b559d16c79b75923'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'NULL'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '896241173d844362b4fc1e4d56586f7d'
                         key: {
@@ -4022,10 +5239,28 @@ declare global {
                     },
                     {
                         table: 'sys_documentation'
+                        id: '89fcf2d0198140c09eddfceea49368d1'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'full_name'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
                         id: '8a255b6caeb641e388b4d28f442da192'
                         key: {
                             name: 'x_2300649_hirefl_0_onboarding_template'
                             element: 'job_role'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '8a555549a24b43fd94f0cc1c1ad87620'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'current_company'
                             language: 'en'
                         }
                     },
@@ -4058,6 +5293,15 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '8c1081cb931b4888848fabf04ce8510f'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interviewer'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '8c7451b3245e4506acf6800c4fe94e34'
                         key: {
@@ -4080,6 +5324,14 @@ declare global {
                             name: 'x_2300649_hirefl_0_allocation'
                             element: 'eligibility_date'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '8dafcf823c494bf1bbde3e120e6c1713'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'handoff_error'
                         }
                     },
                     {
@@ -4171,6 +5423,14 @@ declare global {
                     },
                     {
                         table: 'sys_dictionary'
+                        id: '90787c4ed59941d7a36f56ad4411f6d1'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_status'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
                         id: '9134a47947104fab813a08e25ccecaea'
                         key: {
                             name: 'x_2300649_hirefl_0_recovery_action'
@@ -4215,6 +5475,14 @@ declare global {
                             name: 'x_2300649_hirefl_0_asset_assignment'
                             element: 'allocation_date'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice_set'
+                        id: '9245dae736b74114abe85c6e42097ae8'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'requisition_status'
                         }
                     },
                     {
@@ -4263,6 +5531,17 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: '939d22b86bdd423abcd3863246c42bb0'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'current_stage'
+                            value: 'screening'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_choice_set'
                         id: '93e99632b47c4c1cb6e78a5a79f6ef71'
                         key: {
@@ -4277,6 +5556,17 @@ declare global {
                             name: 'x_2300649_hirefl_0_asset_assignment'
                             element: 'requested_date'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '941edd2860e5433aa9c8324f92ee9cdc'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'priority'
+                            value: 'low'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -4296,6 +5586,14 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_bgv_vendor'
                             element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '94985d6feab9420ba52894c6d5d61c84'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'highest_qualification'
                         }
                     },
                     {
@@ -4335,6 +5633,14 @@ declare global {
                     },
                     {
                         table: 'sys_dictionary'
+                        id: '957638feb7624fbeab7afdcbc96f28dc'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'maximum_experience'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
                         id: '958abba2cf3a40c09f1b56f3cbd42db6'
                         key: {
                             name: 'x_2300649_hirefl_0_readiness_snapshot'
@@ -4343,10 +5649,25 @@ declare global {
                     },
                     {
                         table: 'sys_dictionary'
+                        id: '9607a927c1d447a19a36fe20a24538bd'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'minimum_experience'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
                         id: '967b1c4115c0405394dc3b9242696be0'
                         key: {
                             name: 'x_2300649_hirefl_0_readiness_snapshot'
                             element: 'days_to_join'
+                        }
+                    },
+                    {
+                        table: 'ua_table_licensing_config'
+                        id: '96d1b1f44d034f3884fd08798008adf3'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
                         }
                     },
                     {
@@ -4366,6 +5687,14 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_onboarding_template'
                             element: 'department'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '9747d679065c4464adba6b1c3b778903'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'offer_date'
                         }
                     },
                     {
@@ -4434,11 +5763,28 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '98e695ffdcca4ff4b19b15a0fa211ff6'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'hiring_manager'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '990abe56170a4c94bac21e42368c49e5'
                         key: {
                             name: 'x_2300649_hirefl_0_readiness_verification'
                             element: 'recheck_date'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '995ff5febc244e9c86283e55bd584809'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'requisition_status'
                         }
                     },
                     {
@@ -4471,6 +5817,34 @@ declare global {
                     },
                     {
                         table: 'sys_choice'
+                        id: '9a68d50742574d3a905c33606fc8acda'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'application_status'
+                            value: 'withdrawn'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '9a95340432554cce8b9c310530393742'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_status'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '9aebd489457343839a3b1ea1f2881e29'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'evaluation_id'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
                         id: '9b67e0f0cf8e492c9c70eef5e7eaeff0'
                         key: {
                             name: 'x_2300649_hirefl_0_readiness_snapshot'
@@ -4486,6 +5860,23 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_fulfilment_baseline'
                             element: 'location'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '9bbe305283964f4889293c303c3a9eed'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'applicant'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '9bd1d5cdec414c3baf639aaf8f2a6a22'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'priority'
+                            language: 'en'
                         }
                     },
                     {
@@ -4535,6 +5926,15 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_asset_assignment'
                             element: 'assigned_by'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '9ccf4cced35345a2ab7921f2fa45d994'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'portfolio_url'
                             language: 'en'
                         }
                     },
@@ -4607,10 +6007,72 @@ declare global {
                     },
                     {
                         table: 'sys_dictionary'
+                        id: '9e3b2c6e19d240b29e1908fcc5ca20f1'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'joiner'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '9e5db8f2966d432b94e46b758d892b57'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'improvement_areas'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '9eb344f4eed24d0484236f3a372abec9'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'current_stage'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '9f0138713a9a4c828b8aa53a58887f3f'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'applicant_source'
+                            value: 'referral'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
                         id: '9fc7657992f74337a4887fd2f89a9efb'
                         key: {
                             name: 'x_2300649_hirefl_0_integration_transaction_log'
                             element: 'status'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'a028bfc2da88400fa21f0d79ce0e72cb'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'offer_date'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'a0428ae772204a14ac733c54f5724220'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'portfolio_url'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'a0a77b4461ae4f6889392b4fe3cc9261'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'recommendation'
+                            language: 'en'
                         }
                     },
                     {
@@ -4620,6 +6082,14 @@ declare global {
                             name: 'x_2300649_hirefl_0_template_task'
                             element: 'sla_definition'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'a0ffdb0a69334148810849cc9ae28089'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'response_deadline'
                         }
                     },
                     {
@@ -4644,6 +6114,15 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_bgv_vendor'
                             element: 'integration_type'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'a1ae5cf78e844a219f712c96474b4975'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'total_experience'
                             language: 'en'
                         }
                     },
@@ -4676,11 +6155,50 @@ declare global {
                     },
                     {
                         table: 'sys_choice'
+                        id: 'a2622988c9314c6baad33d63500396c6'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'applicant_source'
+                            value: 'company_website'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'a29d5c0da215496990af08d8434eb2e0'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'handoff_status'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
                         id: 'a33a64ae181f49b0822daf771e363d2d'
                         key: {
                             name: 'x_2300649_hirefl_0_recovery_action'
                             element: 'execution_status'
                             value: 'pending'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'a3872da786c74f559f84e617e0820248'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'email'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'a3bab889c1c541bdb8b60190347cd376'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'application_status'
+                            value: 'offer_released'
                             language: 'en'
                             dependent_value: 'NULL'
                         }
@@ -4708,6 +6226,15 @@ declare global {
                         id: 'a4161e8d741e444ba3da7cf686c21701'
                         key: {
                             name: 'x_2300649_hirefl_0_asset_assignment'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'a419d76e634f4b7695bb714562281a7d'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'requisition_status'
+                            language: 'en'
                         }
                     },
                     {
@@ -4761,6 +6288,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: 'a53740a26c62481c85a0ebda72abdb4a'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'meeting_link'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: 'a5e543b15b4340b5b5769f6adfaff9c4'
                         key: {
@@ -4773,11 +6308,33 @@ declare global {
                     },
                     {
                         table: 'sys_choice'
+                        id: 'a5e7534772e0450e94802ad4fd48fee5'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'highest_qualification'
+                            value: 'other'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
                         id: 'a659e7cde0164c2baccdbe40cc36cf9d'
                         key: {
                             name: 'x_2300649_hirefl_0_readiness_snapshot'
                             element: 'readiness_status'
                             value: 'at_risk'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'a66b9ef3889c4b708934a9c7c89bbb72'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'applicant_source'
+                            value: 'other'
                             language: 'en'
                             dependent_value: 'NULL'
                         }
@@ -4837,6 +6394,15 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: 'a8025390ac894fe180aa8118e7945785'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'strengths'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: 'a81391ecce4c4e258d74d6790c81efe5'
                         key: {
@@ -4868,6 +6434,17 @@ declare global {
                             name: 'x_2300649_hirefl_0_onboarding_template'
                             element: 'job_role'
                             value: 'project_manager'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'a84052409cc140739145f2dea5bfe3fb'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'requisition_status'
+                            value: 'pending_approval'
                             language: 'en'
                             dependent_value: 'NULL'
                         }
@@ -4922,6 +6499,28 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: 'a9b05b8d72dc402fa691286467a3b006'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'recommendation'
+                            value: 'reject'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'aa094e21cacc452a969f23c973067f56'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'recommendation'
+                            value: 'hold'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: 'aa3699cc675a4d3ea03ee2bb9ba8e8ab'
                         key: {
@@ -4931,11 +6530,36 @@ declare global {
                     },
                     {
                         table: 'sys_documentation'
+                        id: 'aab9e66a72f54425ada7bdbd9c2c1256'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_round'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice_set'
+                        id: 'ab60d8e8de7548aca3cc413403793e4b'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'applicant_source'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
                         id: 'ab75701ef8e040a28d3e379a1e2a906d'
                         key: {
                             name: 'x_2300649_hirefl_0_readiness_snapshot'
                             element: 'threshold'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'ac6f88f195ae4a7f957556dd7b434d2b'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'employment_type'
                         }
                     },
                     {
@@ -4956,11 +6580,31 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: 'acf65f7108314652b84ad49020c45592'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'highest_qualification'
+                            value: 'doctorate'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: 'ad554d1b42b8497d955c47a6862e6703'
                         key: {
                             name: 'x_2300649_hirefl_0_task_dependency'
                             element: 'template_task'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'add30b5fbed3496fab2b080e1ee3a4c5'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'joiner'
                             language: 'en'
                         }
                     },
@@ -4987,11 +6631,28 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: 'ae3115a3b575411ca73cd51948fa7dca'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'rejection_reason'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: 'ae3b8722828c49eb9f905f32a16ef04c'
                         key: {
                             name: 'x_2300649_hirefl_0_allocation'
                             element: 'approved_by'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'ae40aed84e3f4757b6410618947c762d'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'NULL'
                             language: 'en'
                         }
                     },
@@ -5005,10 +6666,43 @@ declare global {
                     },
                     {
                         table: 'sys_dictionary'
+                        id: 'aea5ab4d142b4afb8c04e327d0c0e3b0'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'communication_score'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
                         id: 'aeb221c3648641dba407157aca05d39d'
                         key: {
                             name: 'x_2300649_hirefl_0_asset_assignment'
                             element: 'requested_date'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'af0ea1aa19e6406e8163e231ada89349'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'location'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice_set'
+                        id: 'af60e61aa5864af8bd37b75159c1cc3b'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'priority'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'aff4f3d27af34cde89a8bbebd4053ba1'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'department'
                         }
                     },
                     {
@@ -5280,6 +6974,22 @@ declare global {
                     },
                     {
                         table: 'sys_documentation'
+                        id: 'b94d62af9071461fb92442238f6420b4'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'offer_id'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_db_object'
+                        id: 'b96a4ab39a1d489cb488a1bf14a1d8b0'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
                         id: 'b98ed9128fc248d6852d5f1ddd236905'
                         key: {
                             name: 'x_2300649_hirefl_0_recovery_action'
@@ -5302,6 +7012,34 @@ declare global {
                             name: 'x_2300649_hirefl_0_integration_transaction_log'
                             element: 'error_message'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'b9bf4b41038e421494454bce17572d27'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'handoff_error'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'b9c91c949bcc44c5a596aeecf92bdcb9'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_round'
+                            value: 'screening'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'bab251d37d81411bb4e13c17e7a27e92'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'interview'
                         }
                     },
                     {
@@ -5339,6 +7077,17 @@ declare global {
                             name: 'x_2300649_hirefl_0_task_evidence'
                             element: 'NULL'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'bc41d03a4f7542b69932ac77397b3ea1'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'applicant_source'
+                            value: 'campus'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -5467,6 +7216,17 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: 'c0410c8fa67f477bad92e9d58e7d3690'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'applicant_source'
+                            value: 'job_portal'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: 'c048fac67829455d9b01b5280aa4c578'
                         key: {
@@ -5495,6 +7255,17 @@ declare global {
                     },
                     {
                         table: 'sys_choice'
+                        id: 'c195e8a0fa1249079916b97b8c597154'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'current_stage'
+                            value: 'application'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
                         id: 'c19d84e344294276bfdb3f5d01729ba7'
                         key: {
                             name: 'x_2300649_hirefl_0_recovery_action'
@@ -5505,11 +7276,38 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: 'c1edab5bd0cd489b86935ea1082e0961'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'priority'
+                            value: 'urgent'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'c1f1aa1ce1384df5967105cda8802235'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_notes'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: 'c1f32e143c2a4fb3a85ed3e50589d896'
                         key: {
                             name: 'x_2300649_hirefl_0_batch'
                             element: 'batch_name'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'c21a395cab4648339c28802f500126c8'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'NULL'
                         }
                     },
                     {
@@ -5527,6 +7325,17 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_joiner'
                             element: 'joining_date'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'c3111af4119b44ccaab854ba85237114'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'current_stage'
+                            value: 'offer'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -5552,11 +7361,29 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: 'c3c8eeaaab464f529bfe71b3ac17468b'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'requisition_id'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_choice_set'
                         id: 'c3e02fc8cdf54bbebd8cafec75a4ef7b'
                         key: {
                             name: 'x_2300649_hirefl_0_onboarding_template'
                             element: 'job_role'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'c3e9744d5d3c47aca1dcecd60a4e4bc3'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'assigned_recruiter'
+                            language: 'en'
                         }
                     },
                     {
@@ -5574,6 +7401,14 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_asset_assignment'
                             element: 'asset_type'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'c435521af73743e99c6823af47369f21'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'current_stage'
                         }
                     },
                     {
@@ -5622,6 +7457,14 @@ declare global {
                     },
                     {
                         table: 'sys_dictionary'
+                        id: 'c690b51eff224ab29915761cdff72256'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'application_date'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
                         id: 'c6a733db8f604eff8c78b2eb2ff8c3f1'
                         key: {
                             name: 'x_2300649_hirefl_0_task_evidence'
@@ -5637,6 +7480,21 @@ declare global {
                             value: 'user'
                             language: 'en'
                             dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_db_object'
+                        id: 'c6fb956156434a9fbcf222a1b66ead1e'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                        }
+                    },
+                    {
+                        table: 'sys_choice_set'
+                        id: 'c74099a350204df59a1fb1a89260d561'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'recommendation'
                         }
                     },
                     {
@@ -5683,11 +7541,29 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: 'c92a885706c84ef58141d23d8750fe8f'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'applicant_id'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: 'c9af2f5b69c94b85a05938b73f912081'
                         key: {
                             name: 'x_2300649_hirefl_0_recovery_action'
                             element: 'joiner'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'c9bc51272e074bd79129ec6c5d92d18e'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'skills'
+                            language: 'en'
                         }
                     },
                     {
@@ -5707,6 +7583,17 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_joiner'
                             element: 'probation_end_date'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'cabdd98dd58b4154a72ffee9f3434ddb'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'offer_status'
+                            value: 'accepted'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -5734,6 +7621,15 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: 'cbba10e7a8d04d44aeacc2ba5b082356'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'application_date'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: 'cc5314f072aa42c197186e0a4dea1be1'
                         key: {
@@ -5747,6 +7643,15 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_joiner'
                             element: 'batch'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'cd149a5f38fb42fc8e081e8b9ff6ed83'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'application_status'
                             language: 'en'
                         }
                     },
@@ -5807,6 +7712,17 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: 'ce7b0989b55e4e6bbd59ed86e3e5703d'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_type'
+                            value: 'online'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: 'ce92126acc8844c182a773f1a9a3460b'
                         key: {
@@ -5844,6 +7760,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: 'cf0350a36c8042acb1b9ae3f6e5280cb'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'scheduled_start'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: 'cf075febff0640149c53004b88caa145'
                         key: {
@@ -5862,6 +7786,17 @@ declare global {
                     },
                     {
                         table: 'sys_choice'
+                        id: 'cf2f5067a33f4a838ad659c9ae02f710'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'application_status'
+                            value: 'selected'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
                         id: 'cfa25737da0941bf96be74891aeef7f9'
                         key: {
                             name: 'x_2300649_hirefl_0_onboarding_template'
@@ -5869,6 +7804,14 @@ declare global {
                             value: 'senior_software_engineer'
                             language: 'en'
                             dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'd0518a8ef882482e80b7739e13f42428'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'current_company'
                         }
                     },
                     {
@@ -5887,6 +7830,13 @@ declare global {
                         }
                     },
                     {
+                        table: 'ua_table_licensing_config'
+                        id: 'd22ef5b9e9f14331afc950526a974b55'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: 'd2b8738f93e248ddb0dadd56b0bffeb4'
                         key: {
@@ -5900,6 +7850,14 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_readiness_verification'
                             element: 'final_status'
+                        }
+                    },
+                    {
+                        table: 'sys_choice_set'
+                        id: 'd2eb2c23b8084521918bf4ec0bee74d3'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_result'
                         }
                     },
                     {
@@ -5942,6 +7900,17 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: 'd3665b884a5b437d9f62b0604028a84a'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'highest_qualification'
+                            value: 'diploma'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: 'd3818b4cc7b046d6b45ed1a8971dfae6'
                         key: {
@@ -5964,6 +7933,14 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_nudge_log'
                             element: 'recipient'
+                        }
+                    },
+                    {
+                        table: 'sys_choice_set'
+                        id: 'd4879f3412da4ebea378b7cb8ba8da83'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_status'
                         }
                     },
                     {
@@ -6011,6 +7988,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: 'd6cbbf45941c463a8be2b9b748998687'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'problem_solving_score'
+                        }
+                    },
+                    {
                         table: 'ua_table_licensing_config'
                         id: 'd6dc6becda744495a2655ac30adb32a2'
                         key: {
@@ -6033,6 +8018,34 @@ declare global {
                             name: 'x_2300649_hirefl_0_joiner'
                             element: 'validation_status'
                             value: 'pending'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'd7a972a7ba35419f8b213b26efbfbcfa'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_notes'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'd7c57315480c4dee85f52d9336f54078'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'priority'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'd7cd54dde70e425a824f3b9767c09ba9'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_round'
+                            value: 'managerial'
                             language: 'en'
                             dependent_value: 'NULL'
                         }
@@ -6066,6 +8079,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: 'd90116566af744fe9945817cdf1ee6ce'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'phone'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: 'd986dd05517940a38a9750e228214fd3'
                         key: {
@@ -6083,11 +8104,39 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: 'd99d5d1a80f742f8964085786d2b33a7'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'openings'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: 'd9ee6f6618c24d4b8323b2c33237827f'
                         key: {
                             name: 'x_2300649_hirefl_0_joiner'
                             element: 'buddy'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'd9fc2ac7c68642b3a1b546fd25b0533f'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'handoff_status'
+                            value: 'not_started'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'da84f63d49d047e1bfaf8fe50368383e'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'applicant_source'
                         }
                     },
                     {
@@ -6123,11 +8172,36 @@ declare global {
                     },
                     {
                         table: 'sys_documentation'
+                        id: 'dbdc486f3edb478f8de1fe3e35b41c34'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'department'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
                         id: 'dcae2cdcda51485182db9ed4b3037022'
                         key: {
                             name: 'x_2300649_hirefl_0_task_evidence'
                             element: 'rejection_reason'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'dcb46107fb174938bcba08416439a195'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'full_name'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'dd205f6b34b242b8ba28378f53ab596d'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'scheduled_end'
                         }
                     },
                     {
@@ -6148,6 +8222,14 @@ declare global {
                             value: 'first_reminder'
                             language: 'en'
                             dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'dd3d8a45388f47c99a2cd5e2ab10135f'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'closing_date'
                         }
                     },
                     {
@@ -6191,6 +8273,17 @@ declare global {
                             name: 'x_2300649_hirefl_0_recovery_playbook'
                             element: 'priority'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'e00b69ce7191478fa736bf7b0fe35486'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'highest_qualification'
+                            value: 'masters'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -6250,6 +8343,25 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: 'e0bebe672da44d2b874e6e4be0943144'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'required_skills'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'e100d389eb5540f18622e4c4886b06d5'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_result'
+                            value: 'on_hold'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: 'e1424f43275f477eb301b3097785690a'
                         key: {
@@ -6283,6 +8395,15 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_fulfilment_baseline'
                             element: 'sample_count'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'e28d31545e2d4d79bdada42f98c04589'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'last_stage_update'
+                            language: 'en'
                         }
                     },
                     {
@@ -6336,6 +8457,17 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: 'e4b146a9d456483b9fb0b65033b31d8a'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'highest_qualification'
+                            value: 'bachelors'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_db_object'
                         id: 'e5407bbc374b4cc3a1f9b38b26691e88'
                         key: {
@@ -6351,6 +8483,14 @@ declare global {
                             value: 'joiner'
                             language: 'en'
                             dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'e55becf80bd145e7b737903437deac9a'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'NULL'
                         }
                     },
                     {
@@ -6424,6 +8564,14 @@ declare global {
                             value: 'device_delay'
                             language: 'en'
                             dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice_set'
+                        id: 'e7ab72c770c7498eb933bb7326235691'
+                        key: {
+                            name: 'x_2300649_hirefl_0_applicant'
+                            element: 'highest_qualification'
                         }
                     },
                     {
@@ -6586,6 +8734,15 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: 'eb8cad8a109546f2bed422dddbb4e656'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'joining_date'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: 'ebeb0aac7f214e82a55c4be7dbc5572d'
                         key: {
@@ -6605,6 +8762,14 @@ declare global {
                             value: 'in_progress'
                             language: 'en'
                             dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'ec1830e4c8c24eb9b5f9076df554e994'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_type'
                         }
                     },
                     {
@@ -6638,6 +8803,17 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: 'ec83484d4c684ffa9a97c669967702c6'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'employment_type'
+                            value: 'contract'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: 'ecae6ac0150f4fde871e88a6dec51cb8'
                         key: {
@@ -6653,6 +8829,13 @@ declare global {
                             name: 'x_2300649_hirefl_0_recovery_action'
                             element: 'execution_status'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'ua_table_licensing_config'
+                        id: 'ed28263e3c084afda99ab1b1f3828ec6'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
                         }
                     },
                     {
@@ -6689,11 +8872,27 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_db_object'
+                        id: 'ef1dd4ff16394556bf89fe9656e5aacb'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: 'ef41900e8c4a4e81a27cb1b6ad9b6f43'
                         key: {
                             name: 'x_2300649_hirefl_0_readiness_snapshot'
                             element: 'readiness_status'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'eff67bfae826446c9b68413c69010d49'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_type'
                             language: 'en'
                         }
                     },
@@ -6710,10 +8909,28 @@ declare global {
                     },
                     {
                         table: 'sys_documentation'
+                        id: 'f05b44f2d95048d78aa18ad7a70858a9'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'NULL'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
                         id: 'f08b2207a4e34e068b15f6cae96b33ee'
                         key: {
                             name: 'x_2300649_hirefl_0_readiness_verification'
                             element: 'final_status'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'f091189e97784583888c11f51c84158e'
+                        key: {
+                            name: 'x_2300649_hirefl_0_offer'
+                            element: 'job_application'
                             language: 'en'
                         }
                     },
@@ -6833,10 +9050,29 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: 'f462f1c5e1ac415c89b0602fd71e2967'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_status'
+                            value: 'no_show'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'ua_table_licensing_config'
                         id: 'f483fa70527544bfa2dc8006edcaad60'
                         key: {
                             name: 'x_2300649_hirefl_0_recovery_action'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'f4bc5fa2e32e4a598770f6991c6226ee'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'job_description'
                         }
                     },
                     {
@@ -6865,6 +9101,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: 'f543f62f7e724400a80726216d380fa3'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: 'f55b1f424e7147bfb82ba738687186d6'
                         key: {
@@ -6876,11 +9120,29 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: 'f570ca8f6be246e6a22928d12ed9414d'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'detailed_feedback'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: 'f59a012380774749b76ef3592c7cf471'
                         key: {
                             name: 'x_2300649_hirefl_0_joiner'
                             element: 'personal_email'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'f5fc6f20d423450ea7d01334faff4c61'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview_evaluation'
+                            element: 'problem_solving_score'
+                            language: 'en'
                         }
                     },
                     {
@@ -6890,6 +9152,17 @@ declare global {
                             name: 'x_2300649_hirefl_0_task_evidence'
                             element: 'evidence_type'
                             value: 'screenshot'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'f62fee99d7644fcf9568779b10051b9d'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'application_status'
+                            value: 'under_review'
                             language: 'en'
                             dependent_value: 'NULL'
                         }
@@ -6937,6 +9210,17 @@ declare global {
                             name: 'x_2300649_hirefl_0_onboarding_template'
                             element: 'approval_status'
                             value: 'draft'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'f847aa1ba99341b69d8a26df8a72feca'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'application_status'
+                            value: 'shortlisted'
                             language: 'en'
                             dependent_value: 'NULL'
                         }
@@ -7005,6 +9289,14 @@ declare global {
                     },
                     {
                         table: 'sys_dictionary'
+                        id: 'f984fbd3d4754b7db6a81db6a5085a97'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_requisition'
+                            element: 'requisition_id'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
                         id: 'f98c964e55874152b949698ad4f3c967'
                         key: {
                             name: 'x_2300649_hirefl_0_recovery_playbook'
@@ -7017,6 +9309,24 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_recovery_playbook'
                             element: 'responsible_group'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'fa44602854744fd1b08e50b55e138455'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'application_status'
+                            value: 'interview_in_progress'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'ua_table_licensing_config'
+                        id: 'fa99d7b5c1714f7fb5fff8bd8f2cf5ae'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
                         }
                     },
                     {
@@ -7058,6 +9368,17 @@ declare global {
                         key: {
                             name: 'x_2300649_hirefl_0_recovery_action'
                             element: 'approval_status'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'fd32b541a61c4bffb73a3f41894f757d'
+                        key: {
+                            name: 'x_2300649_hirefl_0_job_application'
+                            element: 'application_status'
+                            value: 'interview_scheduled'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -7132,12 +9453,31 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: 'ff3b500883324c18903090e2bf67039f'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_round'
+                            value: 'final'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: 'ff491aec323b4f1591c33f3bd6e4f4fc'
                         key: {
                             name: 'x_2300649_hirefl_0_joiner'
                             element: 'department'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice_set'
+                        id: 'ff49db54dd374ee498fc1ce6ef8d9b8c'
+                        key: {
+                            name: 'x_2300649_hirefl_0_interview'
+                            element: 'interview_round'
                         }
                     },
                     {
